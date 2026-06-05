@@ -1,0 +1,64 @@
+// User Roles
+export const USER_ROLES = {
+  PLATFORM_OWNER: 'PLATFORM_OWNER',
+  ORG_ADMIN: 'ORG_ADMIN',
+  REVIEWER: 'REVIEWER',
+  GROUP_LEADER: 'GROUP_LEADER',
+  MEMBER: 'MEMBER',
+  OPEN_USER: 'OPEN_USER',
+};
+
+// User Status
+export const USER_STATUS = {
+  ACTIVE: 'ACTIVE',
+  INACTIVE: 'INACTIVE',
+  SUSPENDED: 'SUSPENDED',
+  PENDING_KYC: 'PENDING_KYC',
+};
+
+// Transaction Status
+export const TRANSACTION_STATUS = {
+  PENDING: 'PENDING',
+  COMPLETED: 'COMPLETED',
+  FAILED: 'FAILED',
+  CANCELLED: 'CANCELLED',
+  REFUNDED: 'REFUNDED',
+};
+
+// Payment Status
+export const PAYMENT_STATUS = {
+  PENDING: 'PENDING',
+  CONFIRMED: 'CONFIRMED',
+  FAILED: 'FAILED',
+};
+
+// Payment Methods
+export const PAYMENT_METHODS = {
+  VIETQR: 'VIETQR',
+  VNPAY: 'VNPAY',
+  BANK_TRANSFER: 'BANK_TRANSFER',
+  ESCROW: 'ESCROW',
+};
+
+// Organization Types
+export const ORG_TYPES = {
+  ASSOCIATION: 'ASSOCIATION',
+  COMPANY: 'COMPANY',
+  GOVERNMENT: 'GOVERNMENT',
+};
+
+// Product Status
+export const PRODUCT_STATUS = {
+  ACTIVE: 'ACTIVE',
+  INACTIVE: 'INACTIVE',
+  OUT_OF_STOCK: 'OUT_OF_STOCK',
+};
+
+// Notification Types
+export const NOTIFICATION_TYPES = {
+  ORDER: 'ORDER',
+  PAYMENT: 'PAYMENT',
+  KYC: 'KYC',
+  MEMBER: 'MEMBER',
+  SYSTEM: 'SYSTEM',
+};
